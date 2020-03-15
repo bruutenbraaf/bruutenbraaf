@@ -808,9 +808,13 @@ a {
   }
   nav .main-nav ul li a {
     color: #ffffff;
+    font-size: 2.6rem;
     &:before {
       background: #ffffff;
     }
+  }
+  nav .main-contact a {
+    font-size: 2rem;
   }
   nav .main-contact li {
     margin-left: -20px;

@@ -699,9 +699,13 @@ a {
     left: 0; }
 
   nav .main-nav ul li a {
-    color: #ffffff; }
+    color: #ffffff;
+    font-size: 2.6rem; }
     nav .main-nav ul li a:before {
       background: #ffffff; }
+
+  nav .main-contact a {
+    font-size: 2rem; }
 
   nav .main-contact li {
     margin-left: -20px;
