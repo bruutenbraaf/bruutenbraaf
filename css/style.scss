@@ -431,6 +431,18 @@ nav {
   }
 }
 
+.x {
+  &:before {
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background: #111;
+    opacity: 0.2;
+    z-index: 1;
+  }
+}
+
 .active {
   transform: scale(1);
   opacity: 1;
