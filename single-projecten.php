@@ -33,7 +33,7 @@ get_header(); ?>
                         <?php the_sub_field('intro_content'); ?>
                         <?php $call_to_action = get_sub_field('call_to_action'); ?>
                         <?php if ($call_to_action) { ?>
-                            <a href="<?php echo $call_to_action['url']; ?>" class="btn target=" <?php echo $call_to_action['target']; ?>"><?php echo $call_to_action['title']; ?>
+                            <a href="<?php echo $call_to_action['url']; ?>" class="btn" target="<?php echo $call_to_action['target']; ?>"><?php echo $call_to_action['title']; ?>
                                 <svg width="34" height="16" viewBox="0 0 34 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M33 8H0" stroke="black" />
                                     <path d="M26 1L33 8L26 15" stroke="black" />
