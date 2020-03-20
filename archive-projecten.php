@@ -1,8 +1,23 @@
 <?php
 get_header(); ?>
 
-<?php if ($loop->have_posts()) : ?>
-    <?php while ($loop->have_posts()) : $loop->the_post(); ?>
+<section class="pro z pgh">
+    <div class="container fw">
+        <?php get_template_part('template-parts/content', 'branding'); ?>
+    </div>
+    <div class="container fh align-items-center d-flex intp">
+        <div class="row">
+            <div class="col-md-6">
+                <h1><?php the_field('projecten_archive_intro', 'option'); ?></h1>
+            </div>
+        </div>
+    </div>
+    <div class="lined">
+    </div>
+</section>
+
+<?php if (have_posts()) : ?>
+    <?php while (have_posts()) : the_post(); ?>
         <section class="pro msmal">
             <div class="bg" style="background-image:url(<?php echo get_the_post_thumbnail_url($post, 'large'); ?>);"></div>
             <div class="container fw">
