@@ -774,6 +774,9 @@ a {
 }
 
 @media (max-width: 767px) {
+  #main-content .mxs .container {
+    height: 50vh;
+  }
   nav .row {
     height: 100vh;
     padding: 100px 0px;
