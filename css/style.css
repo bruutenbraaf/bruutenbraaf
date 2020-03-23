@@ -346,9 +346,6 @@ nav {
       font-size: 18px;
       color: #ffffff; }
 
-@media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
-  .pro .fw {
-    clip: initial !important; } }
 .bg {
   position: absolute;
   left: 0;
@@ -441,6 +438,9 @@ nav {
     .start svg:hover path {
       fill: #fac9be; }
 
+@media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
+  .pro .fw {
+    clip: initial !important; } }
 .page-template-default .start,
 .single .start {
   margin-top: -100px; }
