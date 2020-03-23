@@ -438,9 +438,6 @@ nav {
     .start svg:hover path {
       fill: #fac9be; }
 
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  .pro .fw {
-    clip: initial !important; } }
 .page-template-default .start,
 .single .start {
   margin-top: -100px; }
