@@ -22,4 +22,14 @@ jQuery('.pro').each(function () {
 jQuery('.burger').click(function (e) {
   jQuery('.burger').toggleClass('is--open');
   jQuery('nav').toggleClass('open');
-}); 
+});
+
+
+
+var ua = navigator.userAgent.toLowerCase(); 
+if (ua.indexOf('safari') != -1) { 
+  if (ua.indexOf('chrome') > -1) {
+  } else {
+    jQuery('.fw').addClass('is--saf');
+  }
+}

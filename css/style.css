@@ -346,6 +346,9 @@ nav {
       font-size: 18px;
       color: #ffffff; }
 
+.is--saf {
+  clip: initial !important; }
+
 .bg {
   position: absolute;
   left: 0;
